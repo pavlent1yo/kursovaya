@@ -22,7 +22,7 @@
                     <span class="heading-primary--main">EXTOURS</span>
                     <span class="heading-primary--sub">Дома хорошо, а в отпуске лучше</span>
                 </h1>
-                <a href="authorisation.php" class="btn btn--white btn--animated">Авторизация</a>
+                <a href="authorization.php" class="btn btn--white btn--animated">Авторизация</a>
             </div>
         </header>
     </body>
