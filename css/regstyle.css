@@ -60,11 +60,26 @@ button {
 }
 
 .regform{
-  background-color: rgba(45, 51, 66, 0.7) ;
+    background-color: rgba(45, 51, 66, 0.7) ;
     margin: 30px 100px;
     padding: 20px;
     color: white;
     text-align: center;
     font-size: 15px;
     border-radius: 30px;
+}
+
+.btn--reg {
+  color: rgb(255, 255, 255); 
+}
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  font-size: 15px;
+  border: none;
 }
