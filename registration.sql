@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Май 12 2023 г., 11:03
--- Версия сервера: 10.4.27-MariaDB
--- Версия PHP: 8.2.0
+-- Время создания: Май 17 2023 г., 12:45
+-- Версия сервера: 10.4.28-MariaDB
+-- Версия PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,11 +39,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `login`, `email`, `pass`) VALUES
-(1, 'papayork', 'papayork@rr', '8d21b63cd164d286b3b9e8fe01a04f47'),
-(2, 'papayorka', 'papayorka@11', '63925bd86b9d8a6140e598e6363304c0'),
-(3, 'papayorka1', 'papayorka1@1r', 'papayorka1'),
-(4, 'курсовая', 'kursovaya@rr', 'курсовая'),
-(5, '123dda', '123@123', '123');
+(1, 'testhash', 'testhash@mail.ru', '082949a8dfacccda185a135db425377b'),
+(2, 'tesauth', 'tesauth@gmail.com', '895dd902eacd8c4387b45d923e88b200'),
+(3, 'proverkaform', 'proverkaform@bk.ru', 'b21febfe1edac314120630f0004a0069');
 
 --
 -- Индексы сохранённых таблиц
@@ -63,7 +61,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
