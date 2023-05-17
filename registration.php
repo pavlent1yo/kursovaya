@@ -8,7 +8,8 @@
   </head>
 <body>
     <div class="regform">
-      <form action="/vendor/reg.php" method="post" enctype="multipart/form-data">
+      <form action="/registration/signup.php" method="post" enctype="multipart/form-data">
+        <a href="/index.php" class="btn btn--reg">Extours</a>
         <label>Логин</label>
         <input type="text" name="login" placeholder="Введите логин">
         <label>Email</label>
@@ -19,8 +20,7 @@
         <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
         <button type="submit">Подтверрдить!</button>
         <p>
-            Уже есть аккаунт? - <a href="/authorisation.php">Авторизация</a>!
-        </p>
+          Уже есть аккаунт? - <a href="/authorization.php">Авторизация</a>!
         </p>
     </div>
 </body>
